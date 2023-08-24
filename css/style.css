@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* ====================================== */
+/* navbar part start*/
+/* ====================================== */
+header {
+
+    background: linear-gradient(to bottom, #303030 0%, #010101 100%);
+
+}
+
+.navbars {
+
+    display: flex;
+    align-items: center;
+}
+
+.navbars ul li a {
+    border-radius: 0;
+    padding: 25px 12px;
+}
+
+.navbars ul {
+    margin: -8px -8px !important;
+}
+
+
+.navbars ul li {
+    border-left: 1px solid #333333;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbars ul li:hover a {
+    color: #fff;
+    box-shadow: 0 0 20px #000 inset;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABdJREFUeNpiDggI+Pr1KzMQGxsbAwQYADTxB04VQIwKAAAAAElFTkSuQmCC) repeat;
+}
+
+.navbars ul .singup {
+    background-image: linear-gradient(to bottom, #12A8F8, #016DC6);
+    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbars .LogoParts .logozat {
+    top: -44px;
+    left: 0;
+    position: absolute;
+}
+
+.navbars .LogoParts img {
+    position: absolute;
+    top: -32px;
+    left: 0;
+}
+
+.navbars .modal-box {
+    border-radius: none !important;
+    padding: none !important;
+}
+
+.navbars .closeModal {
+    border: none;
+    position: absolute;
+    right: 6px;
+    top: -5px;
+}
+
+/* ====================================== */
+/* navbar part end*/
+/* ====================================== */
+
+/* ====================================== */
+/* search bar part start*/
+/* ====================================== */
+
+#searchBar .inputMaine {
+    display: flex;
+    justify-content: right;
+}
+
+#searchBar .inputMaine .Search {
+    position: relative;
+}
+
+#searchBar .inputMaine .Search i {
+    position: absolute;
+    left: 7px;
+    color: #A3A3A3;
+    border-right: 1px solid #d7d1d1;
+    padding: 8px 8px;
+    font-size: 15px;
+}
+
+#searchBar .inputMaine .Search input {
+    height: 32px;
+    border: 2px solid #BCBCBC;
+    color: black;
+    padding-left: 52px;
+    font-size: 14px;
+}
+
+#searchBar .inputMaine .searchBtn {
+    background: linear-gradient(#8cb1c3, #527888);
+    border-radius: 3px;
+    padding: 3px 12px;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 28px;
+}
+
+#searchBar .advanceSearch {
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: right;
+    font-weight: 400;
+    padding-top: 9px;
+}
+
+#searchBar .advanceSearch span {
+    color: #1885BD;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+#searchBar .advanceSearch:hover span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ====================================== */
+/* search bar part end*/
+/* ====================================== */
+/* ====================================== */
+/*main content start*/
+/* ====================================== */
+
+#maineContent .locaiton {
+    background-image: linear-gradient(to bottom, #FEFEFE 0%, #EFEFEF 100%);
+    padding: 16px 12px;
+}
+
+#maineContent .locaiton h2 {
+    color: #595454;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#maineContent .locaiton h2 span {
+    color: black;
+    font-weight: 600;
+}
+
+#maineContent .locaiton .refrash h3 {
+    color: #595454;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+#maineContent .locaiton .refrash h3 span {
+    color: black;
+    font-weight: 600;
+}
+
+#maineContent .locaiton .refrash img {}
+
+/* ========================================= */
+
+#maineContent .NewestMain {
+
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
+
+#maineContent .NewestMain .left .Albuquerque a,
+p {
+    color: #1885BD;
+    font-size: 14px;
+}
+
+#maineContent .NewestMain .left .Albuquerque:hover a {
+    text-decoration: underline;
+    padding-top: 1px 0;
+}
+
+#maineContent .NewestMain .left .cityItems {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#maineContent .NewestMain .left .CityHeade {
+    background: linear-gradient(to bottom, #dfdfdf99 0%, #d5d5d599 40%, #d5d5d599 100%);
+    border: none;
+
+}
+
+#maineContent .NewestMain {
+    background-color: white;
+    border: 1px solid #D9D9D9;
+}
+
+#maineContent .NewestMain .right {
+
+    padding: 14px 20px;
+}
+
+#maineContent .NewestMain .right .pageNumbers .row {
+
+    border: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#maineContent .NewestMain .right .pageNumbers .row span {
+    border-left: 1px solid #DDDDDD;
+    padding: 3px 15px;
+}
+
+/* ============================= */
+/* card items all */
+/* ============================= */
+
+#maineContent .NewestMain .right .ItemsParents .card {
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin-bottom: 15px;
+}
+
+
+#maineContent .NewestMain .right .ItemsParents .card .infoHead {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#maineContent .NewestMain .right .ItemsParents .card .infoHead h3 {
+    color: #1885BD;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#maineContent .NewestMain .right .ItemsParents .card .infoHead h4 {
+    color: #7f8084;
+    font-size: 13px;
+}
+
+#maineContent .NewestMain .right .ItemsParents .card .information h3 span {
+    color: #1885BD;
+}
+
+#maineContent .NewestMain .right .ItemsParents .card .information h3:hover span {
+    text-decoration: underline;
+}
+
+#maineContent .NewestMain .right .ItemsParents .card .information .reviewBtn {
+    background: linear-gradient(#8cb1c3, #527888);
+    border-radius: 5px;
+    padding: 0px 15px;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 29px;
+}
+
+#maineContent .NewestMain .right .ItemsParents .card .imagePart {
+
+    grid-area: image;
+}
+
+#maineContent .NewestMain .right .ItemsParents .card .infoHead {
+    grid-area: head;
+
+}
+
+#maineContent .NewestMain .right .ItemsParents .card .babyNames {
+    grid-area: name;
+
+}
+
+#maineContent .NewestMain .right .ItemsParents .card .information {
+
+    grid-area: infoBody;
+}
+
+#maineContent .NewestMain .right .ItemsParents .grid-container {
+    display: grid;
+    grid-template-areas:
+        'image head head head head head'
+        'image name name name name name'
+        'image infoBody infoBody infoBody infoBody infoBody'
+}
+
+/* ====================================== */
+/* main content start*/
+/* ====================================== */
+/* ====================================== */
+/* testomonial part start*/
+/* ====================================== */
+
+#testomonial .Testo {
+
+    border: 1px solid #DDDDDD;
+    padding: 14px;
+}
+
+#testomonial .Testo .parent .cardx {
+
+    background: linear-gradient(to bottom, #f3f3f3b3 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 10px;
+    border-radius: none;
+    padding-bottom: 14px;
+
+}
+
+#testomonial .Testo .parent .cardx h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+#testomonial .Testo .parent .cardx p {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+}
+
+#testomonial .Testo .parent .cardx h3 {
+    color: black;
+    font-size: 14px;
+    text-align: right;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+#testomonial .Testo .parent .cardx h4 {
+    color: #1885BD;
+    font-size: 13px;
+    padding: 6px 0;
+    font-weight: 500;
+}
+
+#testomonial .Testo .parent .cardx h4:hover {
+    text-decoration: underline;
+}
+
+/* ====================================== */
+/* testomonial part end*/
+/* ====================================== */
+/* ====================================== */
+/* Footer part star*/
+/* ====================================== */
+
+#Footer .detailsFooter p {
+    text-align: center;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 12px;
+    color: #a6a6a6;
+}
+
+#Footer .detailsFooter h3 {
+    text-align: center;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+#Footer .detailsFooter h4 {
+    text-align: center;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 12px;
+    color: #a6a6a6;
+}
+
+/* ====================================== */
+/* Footer part end*/
+/* ====================================== */
+/* ====================================== */
+/*   Responsibe part Start
+/* ====================================== */
+
+@media (max-width:576px) {
+
+    #maineContent .NewestMain {
+
+        grid-template-columns: 1fr;
+    }
+
+    #maineContent .NewestMain .left {
+
+        display: none;
+    }
+
+    #maineContent .NewestMain .right .pageNumbers {
+        display: none;
+    }
+
+
+    #maineContent .NewestMain .right .ItemsParents .grid-container {
+        display: grid;
+
+        grid-template-areas:
+            'head head head head head head'
+            'name name name name name image'
+            'infoBody infoBody infoBody infoBody infoBody image'
+
+
+    }
+
+    #maineContent .NewestMain .right .ItemsParents .card .imagePart {
+
+        margin: 30px 10px;
+        height: 110px;
+
+    }
+
+    .navbars .LogoParts .logozat {
+        display: none;
+    }
+
+    .navbars .LogoParts img {
+        position: absolute;
+        top: -46px;
+        left: 50%;
+        max-width: 66%;
+        transform: translate(27%, -7px);
+    }
+
+    #searchBar .inputMaine .Search {
+        width: 100%;
+    }
+
+    .navbars ul {
+        padding: 0 !important;
+        border: 1px solid #BDE5FF;
+    }
+
+    .navbars ul li {
+        border-bottom: 1px solid #BDE5FF;
+        padding-left: 10px;
+    }
+
+    .navbars ul li a {
+        color: black !important;
+        font-weight: 600;
+        padding: 13px 17px !important;
+    }
+
+    #testomonial .Testo .parent .phnOut {
+        display: none;
+    }
+}
+
+@media (min-width: 577px) and (max-width:1220px) {
+
+    .navbars .LogoParts .logozat {
+        display: none;
+    }
+
+    #searchBar .inputMaine .Search {
+        width: 50%;
+    }
+
+    .navbars .LogoParts img {
+        max-width: 45%;
+    }
+
+}
+
+/* ====================================== */
+/*   Responsibe part end
+/* ====================================== */
+/* ====================================== */
+/*   Modal Part Start
+/* ====================================== */
+
+.alertContainer {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.showAlertJs {
+    top: 50%;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+}
+
+.alertContainer .poup {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    position: relative;
+}
+
+.alertContainer .poup .popHead h3 {
+    text-align: left;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 12px 18px;
+}
+
+.alertContainer .poup form input {
+    padding: 5px 20px;
+    border: 1px solid #CCCCCC;
+    margin-top: 20px;
+}
+
+.alertContainer .poup form .butons h2 {
+    color: #1885BD;
+    font-size: 16px;
+}
+
+.alertContainer .poup form .butons h2:hover {
+    text-decoration: underline;
+}
+
+.alertContainer .poup form .butons h3 {
+    background-color: linear-gradient(#00CB04, #24841f);
+    background-color: #25B725;
+    color: white;
+    padding: 3px 14px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.removeAlertBtn {
+    border: 2px solid white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 50%;
+    line-height: 17px;
+    font-size: 23px;
+}
+
+.alertContainer .poup h2 {
+    color: black;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.alertContainer .poup p {
+    color: black;
+    padding: 14px 0;
+    font-family: 'FontAwesome';
+    font-size: 13px;
+}
